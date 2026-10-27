@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stationery Battle Test — 桌面文具战斗</title>
+  </head>
+  <body>
+    <div id="app">
+      <canvas id="c"></canvas>
+      <aside id="hud">
+        <h1>文具战斗小样</h1>
+        <p class="hint">
+          WASD 移动 · 鼠标指向朝向 · 左键突刺<br />
+          1 单挑 · 2 六人混战 · R 重开 · P 暂停
+        </p>
+        <div id="status" role="status"></div>
+        <div id="roster"></div>
+        <pre id="debug" class="debug" hidden></pre>
+      </aside>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

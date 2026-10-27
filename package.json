@@ -1,0 +1,26 @@
+{
+  "name": "stationery-battle-test",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Desktop stationery battle tech sample — lunge attacks, hit detection, small melee",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5175",
+    "build": "tsc && vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4175",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "three": "^0.172.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.172.0",
+    "typescript": "~5.7.3",
+    "vite": "^6.0.11",
+    "vitest": "^3.0.5"
+  }
+}
